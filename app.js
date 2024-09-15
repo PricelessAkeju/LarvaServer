@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import tutorModel from '../server/MODELS/tutorModel.js';
+import tutorModel from "./MODELS/tutorModel.js";
 import studentModel from '../server/MODELS/studentModel.js';
 import attendanceModel from "./MODELS/attendanceModel.js";
 import tutorRouter from "./ROUTERS/tutorRouter.js";
